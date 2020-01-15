@@ -15,10 +15,11 @@ We decided to simplify our project by eliminating all models that didn't meet th
 2. Results had a margin of error of 1 percent or less. 
 3. The models were conducive for time series prediction.
 
-### This left us with the following models:
+### This left us with the following models to focus on:
 
 - [**FB Prophet**](https://facebook.github.io/prophet/)
 - [**LSTM Recurrent Nerual Network**](https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/)
+- [**ARIMA**](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average/)
 
-### Prerequisites:
+### Predicitons:
 
