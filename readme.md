@@ -23,7 +23,7 @@ We decided to simplify our project by eliminating all models that didn't meet th
 
 ### Predictions:
 
-Most of our predictions were within 1-2% from the actual closing price. However, it is not very useful with colatile ETF's and for sudden events like this years market peak.
+Most of our predictions were within 1-2% from the actual closing price. However, it is not very useful with volatile ETF's and for sudden events like this years market peak.
 
 We recommend that this model only be used to facilitate a trading strategy and not become the trading strategy itself.
 
