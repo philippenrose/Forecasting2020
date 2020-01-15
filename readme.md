@@ -1,6 +1,6 @@
 # Forecasting 20/20
 
-Predicting and forecasting ETF performance with machine learning
+**Purpose:** Predicting and forecasting ETF performance with machine learning.
 
 ## Process
 
