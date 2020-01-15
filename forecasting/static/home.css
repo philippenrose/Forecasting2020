@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
   }
 
 
@@ -60,7 +60,7 @@ body {
     text-align: center;
     
     /* Background styles */
-    background-image: linear-gradient(to bottom, rgba(10, 38, 34, .52), rgba(33, 59, 100, .82)), url(https://i.imgur.com/3VPRltC.png);
+    background-image: linear-gradient(to bottom, rgba(10, 38, 34, .52), rgba(32, 64, 116, 0.82)), url(https://i.imgur.com/3VPRltC.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -96,11 +96,6 @@ body {
 .bottominfo {
     padding-bottom: 40px;
 }
-
-img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-  }
 
 #footer {
     padding: 10px;

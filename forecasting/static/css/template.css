@@ -116,10 +116,6 @@
     font-size: 10px; 
 }
 
-img:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
-}
 
 .tinyinfo {
   text-align: center;
@@ -140,4 +136,9 @@ img:hover {
 
 p {
   color: white;
+}
+
+.tinypic:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }

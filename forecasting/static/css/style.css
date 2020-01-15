@@ -116,11 +116,6 @@
     font-size: 10px; 
 }
 
-img:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
 .tinyinfo {
   text-align: center;
   font-size: 5em;
@@ -133,6 +128,10 @@ img:hover {
 .tinypic {
   filter: invert(1);
 }
+.tinypic:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
 
 #grad {
   background-image: linear-gradient(to bottom right, #0A2622, #213B64);
@@ -140,4 +139,24 @@ img:hover {
 
 p {
   color: white;
+}
+
+.stocktext {
+  padding-top:100px;
+  font-size: 50px;
+}
+
+.fktext {
+  padding-left: 50px;
+  font-size: 50px;
+}
+
+.mftext {
+  padding-left: 100px;
+  font-size: 50px;
+}
+
+.risktitle {
+  padding-top: 30px;
+  font-size: 50px;
 }

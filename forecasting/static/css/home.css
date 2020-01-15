@@ -97,10 +97,6 @@ body {
     padding-bottom: 40px;
 }
 
-img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-  }
 
 #footer {
     padding: 10px;
@@ -132,4 +128,14 @@ img:hover {
 
 p {
   color: white;
+}
+
+.tinypic:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.midpic:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }

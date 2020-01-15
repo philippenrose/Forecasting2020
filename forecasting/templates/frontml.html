@@ -18,12 +18,11 @@
 <!-- Nav Bar -->
 <div class="row">
     <div class="topnav">
-        <a class="active" href="/home">Home</a>
-        <a href="/intro">Technical Indicators</a>
-        <a href="/frontml">ETF Analysis</a>
-        <a href="/frontml">Machine Learning</a>
-        <!-- <a href="#filler">Filler Page</a> -->
-        <a href="/aboutme">About Us</a>
+        <a class="active" href="/">Home</a>
+        <a href="/risk">The Process.</a>
+        <a href="/frontml">Model Comparison.</a>
+        <a href="/machinelearn">CSVs.</a>
+        <a href="/aboutus">About Us.</a>
     </div>
 </div>
 
@@ -34,10 +33,8 @@
     <body>
         <section class="hero" id="heromini">
             <div class="hero-inner">
-                <h1 style="font-family: Console; font-size: 36pt; color: white; text-align: center;">Forecasting 20/20
-                </h1>
-                <h2 style="font-family: Console; font-size: 24pt; color: white; text-align: center;">Predicting and
-                    forecasting ETF performance with machine learning</h2>
+                <h1>Model Comparison</h1>
+                <h3>Forecasting 20/20</h3>
                 <!-- <a href="https://example.com/" class="btn">Go ahead...</a> -->
             </div>
         </section>
@@ -62,16 +59,15 @@
 
     <div id="grad">
         <div class="row">
-
+            <hr>
             <div class="container">
 
                 <div class="risktitle">
-                    <h2 style="font-family: Console; font-size: 18pt; color: white; text-align: center;">Let's explore
-                        some of our forecasting models.</h2>
+                    <h2></h2>
                 </div>
-                <hr>
+                
                 <div class="riskbody">
-                    <p>General info about topic.</p>
+                    <p></p>
                 </div>
 
             </div>
@@ -85,16 +81,24 @@
                 <!-- <div class="col-sm-1" style="font-family:Arial"></div> -->
 
                 <select id="selDataset">
-                    <option selected="true" disabled>Choose ETF</option>
-                    <option value="SPY">SPY</option>
-                    <option value="VV">VV</option>
-                    <option value="QQQ">QQQ</option>
-                    <option value="SPLV">SPLV</option>
+                    <option selected="true" class="custom-select">Choose ETF</option>
+                    <option value="DIA">DIA</option>
+                    <option value="IBB">IBB</option>
+                    <option value="JNK">JNK</option>
                     <option value="LQD">LQD</option>
                     <option value="MBB">MBB</option>
+                    <option value="MINT">MINT</option>
+                    <option value="QQQ">QQQ</option>
+                    <option value="SCZ">SCZ</option>
+                    <option value="SHY">SHY</option>
+                    <option value="SPLV">SPLV</option>
+                    <option value="SPY">SPY</option>
+                    <option value="VGT">VGT</option>
+                    <option value="VT">VT</option> 
+                    <option value="VV">VV</option>
+                    <option value="XLK">XLK</option>
 
                 </select>
-                <br>
                 <br>
             </div>
 
@@ -106,17 +110,18 @@
 
         <div class="row">
             <div class="col-sm-12">
-                <center>
-                    <!-- <div id="my_dataviz"></div> -->
-                    <button class="btn model" id="button" onclick="picture2('picture1')">FBProphet 1</button>
-                    <button class="btn model" id="button" onclick="picture2('picture2')">ARIMA 2</button>
-                    <button class="btn model" id="button" onclick="picture2('picture3')">ARIMA 2</button>
-                    <button class="btn model" id="button" onclick="picture2('picture4')">FBProphet 4</button>
-                </center>
-                <br>
                 <div class="ETFlabel">
                     <p></p>
                 </div>
+                <center>
+                    <!-- <div id="my_dataviz"></div> -->
+                    <button class="btn model" id="button" onclick="picture2('picture1')">FBProphet</button>
+                    <button class="btn model" id="button" onclick="picture2('picture4')">FBProphet</button>
+                    <button class="btn model" id="button" onclick="picture2('picture2')">ARIMA</button>
+                    <button class="btn model" id="button" onclick="picture2('picture3')">ARIMA</button>
+
+                </center>
+                <br>
             </div>
         </div>
 
@@ -195,41 +200,41 @@
                 <!-- Page 1 -->
                 <div class="col-sm-2">
                     <div class="tinyinfo">
-                        <a href="../frontml.html" class="tinypic"><img
-                                src="{{ url_for('static', filename='images/iconetf_s.png') }}"></a>
-                        <h5>
-                            <p>ETF Analysis</p>
-                        </h5>
-                    </div>
-                </div>
-                <!-- Page 2 -->
-                <div class="col-sm-2">
-                    <div class="tinyinfo">
-                        <a href="../intro.html" class="tinypic"><img
-                                src="{{ url_for('static', filename='images/iconrisk_s.png') }}"></a>
-                        <h5>
-                            <p>Technical Indicators</p>
-                        </h5>
-                    </div>
-                </div>
-                <!-- Page 3 -->
-                <div class="col-sm-2">
-                    <div class="tinyinfo">
-                        <a href="../frontml.html" class="tinypic"><img
-                                src="{{ url_for('static', filename='images/iconml_s.png') }}"></a>
-                        <h5>
-                            <p>Machine Learning</p>
-                        </h5>
-                    </div>
-                </div>
-                <!-- Page 2 -->
-
-                <div class="col-sm-2">
-                    <div class="tinyinfo">
-                        <a href="../filler.html" class="tinypic"><img
+                        <a href="/" class="tinypic"><img
                                 src="{{ url_for('static', filename='images/iconfiller_s.png') }}"></a>
                         <h5>
-                            <p>Investors</p>
+                            <p>Home</p>
+                        </h5>
+                    </div>
+                </div>
+                <!-- Page 2 -->
+                <div class="col-sm-2">
+                    <div class="tinyinfo">
+                        <a href="/risk" class="tinypic"><img
+                                src="{{ url_for('static', filename='images/iconrisk_s.png') }}"></a>
+                        <h5>
+                            <p>The Process</p>
+                        </h5>
+                    </div>
+                </div>
+                <!-- Page 3 -->
+                <div class="col-sm-2">
+                    <div class="tinyinfo">
+                        <a href="/frontml" class="tinypic"><img
+                                src="{{ url_for('static', filename='images/iconetf_s.png') }}"></a>
+                        <h5>
+                            <p>Model Comparison</p>
+                        </h5>
+                    </div>
+                </div>
+                <!-- Page 2 -->
+
+                <div class="col-sm-2">
+                    <div class="tinyinfo">
+                        <a href="/machinelearn" class="tinypic"><img
+                                src="{{ url_for('static', filename='images/iconml_s.png') }}"></a>
+                        <h5>
+                            <p>CSV's</p>
                         </h5>
                     </div>
                 </div>
@@ -237,7 +242,7 @@
                 <!-- Page 3 -->
                 <div class="col-sm-2">
                     <div class="tinyinfo">
-                        <a href="../about.html" class="tinypic"><img
+                        <a href="/aboutus" class="tinypic"><img
                                 src="{{ url_for('static', filename='images/iconau_s.png') }}"></a>
                         <h5>
                             <p>About Us</p>
@@ -255,7 +260,7 @@
             <div class="row" id="footer">
 
                 <p> by Quaid Besing, Ashwin Jayaram, Kat Muraski, Philip Penrose.
-                    <a href="../about.html">About Us</a></p>
+                    <a href="/aboutus">About Us</a></p>
 
             </div>
 
@@ -279,7 +284,5 @@
 
 
 
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/frontml.css') }}">
 <script src="{{ url_for('static', filename='js/frontml.js') }}"></script>
-<script src="{{ url_for('static', filename='js/ml.js') }}"></script>

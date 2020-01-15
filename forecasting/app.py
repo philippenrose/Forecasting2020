@@ -42,7 +42,7 @@ def home():
     """Return the homepage."""
     return render_template('index.html')
 
-@app.route('/aboutme')
+@app.route('/aboutus')
 def aboutme():
     """Return the ETF search page"""
     return render_template('about.html')

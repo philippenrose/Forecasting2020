@@ -113,13 +113,8 @@
     padding: 10px;
     background: rgb(153, 153, 153);
     text-align: center;
-    font-size: 10px; 
+    font-size: 7px; 
 }
-
-/* img:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier
-} */
 
 .tinyinfo {
   text-align: center;
@@ -157,7 +152,7 @@ p {
 }
 .LIpic:hover {
   opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+  filter: alpha(opacity=50);
 }
 
 .GHpic {
@@ -169,7 +164,12 @@ p {
 }
 .GHpic:hover {
   opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+  filter: alpha(opacity=50);
+}
+
+.tinypic:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 .autitle {

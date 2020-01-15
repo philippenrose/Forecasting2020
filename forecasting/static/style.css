@@ -116,14 +116,16 @@
     font-size: 10px; 
 }
 
-img:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
-}
+
 
 .tinyinfo {
   text-align: center;
   font-size: 5em;
+}
+
+.auiconbar:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
 }
 
 .riskdefinitions {
@@ -133,6 +135,11 @@ img:hover {
 .tinypic {
   filter: invert(1);
 }
+
+/* .tinypic:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+} */
 
 #grad {
   background-image: linear-gradient(to bottom right, #0A2622, #213B64);
