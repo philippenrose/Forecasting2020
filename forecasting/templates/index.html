@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+<!-- Load d3.js -->
+<!-- <script src="https://d3js.org/d3.v4.js"></script> -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!-- Color scale -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+/>
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<!-- Nav Bar -->
+<div class="row">
+<div class="topnav">
+        <a class="active" href="/">Home</a>
+        <a href="/risk">Risk Comparison.</a>
+        <a href="/ticker">ETF Comparison.</a>
+        <a href="/frontml">Machine Learning.</a>
+        <a href="/aboutme">Filler Page.</a>
+        <a href="/aboutme">About Me.</a>
+      </div>
+</div>
+
+<!-- The Hero Attempt -->
+
+<div class="entire">
+<body>
+        <section class="hero" id="heromini">
+            <div class="hero-inner"></div>           
+                <h1>Forecasting 20/20.</h1>
+                <h2>We're in Danger.</h2>
+                <!-- <a href="https://example.com/" class="btn">Go ahead...</a> -->
+</div>
+        </section>    
+    </html>
+</body>
+
+
+
+<!-- Banner -->
+
+
+<!-- <div class="row">
+    <div class="container">
+        <div class="header">
+                <h1>Name.</h1>
+        </div>
+    </div>
+</div> -->
+
+<!-- Bulk of Page Info -->
+
+<div id="grad">
+    <div class="row">
+        <div class="container">
+            <div class="risktitle">
+                <h1><p>How to interpret Risk.</p></h1>
+            </div>
+            <hr>
+            <div class="riskbody">
+                <p>General info about risk</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="container">
+
+            <div class="bulk">
+
+            <!-- Pie Chart Updates -->
+            
+    <div class="container">
+            <div class="row" style="font-family:Arial">
+
+                <div class="col-sm-2" style="font-family:Arial"> 
+
+                    <svg id="my_dataviz2" height=400 width=200></svg>
+                </div>
+    <!-- Pie Chart -->
+
+            <div class="col-sm-5">
+                    <center>
+                        <div id="my_dataviz"></div>
+                        <button class="btn risk" value="risky" id="button" onclick="update(data1); riskcard(risky);">High</button>
+                        <button class="btn risk" value="modhigh" id="button" onclick="update(data2); riskcard(modhigh);">Mod High</button>
+                        <button class="btn risk" value="mod" id="button" onclick="update(data3); riskcard(mod);">Mod</button>
+                        <button class="btn risk" value="modlow" id="button" onclick="update(data4); riskcard(modlow);">Mod Low</button>
+                        <button class="btn risk" value="low" id="button" onclick="update(data5); riskcard(low);">Low</button>
+                    </center>
+                    <br>
+                    
+            </div>
+
+    <!-- Legend -->
+            <div class="col-sm-5" style="font-family:Arial"> 
+                    <div id="summary3">Here</div> 
+            </div>
+            </div>
+
+    </div>
+
+            </div>
+        </div>
+
+    </div>
+
+<div class="row">
+
+        <div class="container">
+           <div class="col-sm-3" style="font-family:Arial"> 
+                <div id="sum"><h3><p>Annual Return :</p></h3></div> 
+                <div class="riskdefinitions"><p>Here's some words that mean some things about some words that make money in 2020 we hope.</p></div>
+          </div>
+          <div class="col-sm-3" style="font-family:Arial"> 
+                <div id="sum"><h3><p>Average Return :</p></h3></div> 
+                <div class="riskdefinitions"><p>Here's some words that mean some things about some words that make money in 2020 we hope.</p></div>
+          </div>
+          <div class="col-sm-3" style="font-family:Arial"> 
+                <div id="sum"><h3><p>Alpha :</p></h3></div> 
+                <div class="riskdefinitions"><p>Here's some words that mean some things about some words that make money in 2020 we hope.</p></div>
+          </div>
+          <div class="col-sm-3" style="font-family:Arial"> 
+                <div id="sum"><h3><p>Beta :</p></h3></div> 
+                <div class="riskdefinitions"><p>Here's some words that mean some things about some words that make money in 2020 we hope.</p></div>
+          </div>   
+        </div>
+</div>
+
+
+<br>
+<br>
+
+<div class="row">
+
+        <div class="container">
+          <div class="col-sm-3" style="font-family:Arial"> 
+                <div id="sum"><h3><p>Sharpe :</p></h3></div> 
+                <div class="riskdefinitions"><p>Here's some words that mean some things about some words that make money in 2020 we hope.</p></div>
+          </div>
+          <div class="col-sm-3" style="font-family:Arial"> 
+                <div id="sum"><h3><p>R-Squared :</p></h3></div> 
+                <div class="riskdefinitions"><p>Here's some words that mean some things about some words that make money in 2020 we hope.</p></div>
+          </div>
+          <div class="col-sm-3" style="font-family:Arial"> 
+                <div id="sum"><h3><p>Standard Deviation :</p></h3></div> 
+                <div class="riskdefinitions"><p>Here's some words that mean some things about some words that make money in 2020 we hope.</p></div>
+          </div>
+          <div class="col-sm-3" style="font-family:Arial"> 
+                <div id="sum"><h3><p>Treynor :</p></h3></div> 
+                <div class="riskdefinitions"><p>Here's some words that mean some things about some words that make money in 2020 we hope.</p></div>
+          </div>
+        </div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+
+<!-- {{ url_for('static', filename='iconetf_s.png') }} -->
+
+<!-- Bottom Page Selection -->
+
+<div class="row">
+
+    <div class="container">
+
+            <div class="col-sm-1"></div>
+            <!-- Page 1 -->
+            <div class="col-sm-2">
+                <div class="tinyinfo">
+                    <a href="/ticker" class="tinypic"><img src="{{ url_for('static', filename='images/iconau_m.png') }}"></a>
+                    <h5><p>ETF Comparison.</p></h5>
+                </div>
+            </div>
+            <!-- Page 2 -->
+            <div class="col-sm-2">
+                <div class="tinyinfo">
+                        <a href="/risk" class="tinypic"><img src="{{ url_for('static', filename='images/iconau_m.png') }}"></a>
+                    <h5><p>Risk Comparison.</p></h5>
+                </div>
+            </div>
+            <!-- Page 2 -->
+            <div class="col-sm-2">
+                <div class="tinyinfo">
+                        <a href="/undone" class="tinypic"><img src="{{ url_for('static', filename='images/iconau_m.png') }}"></a>
+                    <h5><p>Filler Spot.</p></h5>
+                </div>
+            </div>
+            <!-- Page 3 -->
+            <div class="col-sm-2">
+                <div class="tinyinfo">
+                        <a href="/aboutme" class="tinypic"><img src="{{ url_for('static', filename='images/iconau_m.png') }}"></a>
+                    <h5><p>About Us.</p></h5>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+    </div> 
+</div>
+
+<br>
+</div>
+    <div class="row" id="footer">
+    
+        <p> by Quaid Besing, Ashwin Jayaram, Kat Muraski, Philip Penrose.
+            <a href="/aboutme">About us.</a></p>
+    </div>
+
+<!-- <div>
+</div> -->
+      <script src="{{ url_for('static', filename='js/home.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
