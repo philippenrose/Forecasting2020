@@ -15,7 +15,7 @@ We decided to simplify our project by eliminating all models that didn't meet th
 2. Results had a margin of error of 1 percent or less. 
 3. The models were conducive for time series prediction.
 
-### Only 2 models satisfied our criteria:
+### This left us with the following models:
 
 - [**FB Prophet**](https://facebook.github.io/prophet/)
 - [**LSTM Recurrent Nerual Network**](https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/)
