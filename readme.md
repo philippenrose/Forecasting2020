@@ -2,7 +2,7 @@
 
 **Purpose:** Predicting and forecasting ETF performance with machine learning.
 
-## Process
+### Process
 
 We tested and compared various machine learning algorithims, reliability, and ease of use.
 
