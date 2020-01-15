@@ -57,6 +57,6 @@ function picture2(data) {
     default:
     // code block
   }
-
+// 
   d3.select(".ETFlabel").select("p").text(`ETF : ${inputValue}`)
 }
