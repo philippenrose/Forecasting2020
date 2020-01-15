@@ -20,7 +20,7 @@ var QQQ = {
 };
 
 var SPLV = {
-  picture1: "static/images/SPLV/splv_seasonality.png",
+  picture1: "static/images/splv_seasonality.png",
   picture2: "static/images/splvpred.png",
   picture3: "static/images/splvpred2.png",
   picture4: "static/images/splv_fbproph_forecast.png",
@@ -34,73 +34,73 @@ var VV = {
 };
 
 var DIA = {
-  picture1: "static/images/DIA/dia_seasonality.png",
-  picture2: "static/images/DIA/dia_arima.png",
-  picture3: "static/images/DIA/dia_arima2.png",
-  picture4: "static/images/DIA/dia_fbproph_forecast.png",
+  picture1: "static/images/dia_seasonality.png",
+  picture2: "static/images/dia_arima.png",
+  picture3: "static/images/dia_arima2.png",
+  picture4: "static/images/dia_fbproph_forecast.png",
 };
 
 var IBB = {
-  picture1: "static/images/IBB/ibb_seasonality.png",
-  picture2: "static/images/IBB/ibb_arima.png",
-  picture3: "static/images/IBB/ibb_arima2.png",
-  picture4: "static/images/IBB/ibb_fbproph_forecast.png",
+  picture1: "static/images/ibb_seasonality.png",
+  picture2: "static/images/ibb_arima.png",
+  picture3: "static/images/ibb_arima2.png",
+  picture4: "static/images/ibb_fbproph_forecast.png",
 };
 
 var JNK = {
-  picture1: "static/images/JNK/jnk_seasonality.png",
-  picture2: "static/images/JNK/jnk_arima.png",
-  picture3: "static/images/JNK/jnk_arima2.png",
-  picture4: "static/images/JNK/jnk_fbproph_forecast.png",
+  picture1: "static/images/jnk_seasonality.png",
+  picture2: "static/images/jnk_arima.png",
+  picture3: "static/images/jnk_arima2.png",
+  picture4: "static/images/jnk_fbproph_forecast.png",
 };
 
 var MBB = {
-  picture1: "static/images/MBB/mbb_seasonality.png",
-  picture2: "static/images/MBB/mbb_arima.png",
-  picture3: "static/images/MBB/mbb_arima2.png",
-  picture4: "static/images/MBB/mbb_fbproph_forecast.png",
+  picture1: "static/images/mbb_seasonality.png",
+  picture2: "static/images/mbb_arima.png",
+  picture3: "static/images/mbb_arima2.png",
+  picture4: "static/images/mbb_fbproph_forecast.png",
 };
 
 var MINT = {
-  picture1: "static/images/MINT/mint_seasonality.png",
-  picture2: "static/images/MINT/mint_arima.png",
-  picture3: "static/images/MINT/mint_arima2.png",
-  picture4: "static/images/MINT/mint_fbproph_forecast.png",
+  picture1: "static/images/mint_seasonality.png",
+  picture2: "static/images/mint_arima.png",
+  picture3: "static/images/mint_arima2.png",
+  picture4: "static/images/mint_fbproph_forecast.png",
 };
 
 var SCZ = {
-  picture1: "static/images/SCZ/scz_seasonality.png",
-  picture2: "static/images/SCZ/scz_arima.png",
-  picture3: "static/images/SCZ/scz_arima2.png",
-  picture4: "static/images/SCZ/scz_fbproph_forecast.png",
+  picture1: "static/images/scz_seasonality.png",
+  picture2: "static/images/scz_arima.png",
+  picture3: "static/images/scz_arima2.png",
+  picture4: "static/images/scz_fbproph_forecast.png",
 };
 
 var SHY = {
-  picture1: "static/images/SHY/shy_seasonality.png",
-  picture2: "static/images/SHY/shy_arima.png",
-  picture3: "static/images/SHY/shy_arima2.png",
-  picture4: "static/images/SHY/shy_fbproph_forecast.png",
+  picture1: "static/images/shy_seasonality.png",
+  picture2: "static/images/shy_arima.png",
+  picture3: "static/images/shy_arima2.png",
+  picture4: "static/images/shy_fbproph_forecast.png",
 };
 
 var VGT = {
-  picture1: "static/images/VGT/vgt_seasonality.png",
-  picture2: "static/images/VGT/vgt_arima.png",
-  picture3: "static/images/VGT/vgt_arima2.png",
-  picture4: "static/images/VGT/vgt_fbproph_forecast.png",
+  picture1: "static/images/vgt_seasonality.png",
+  picture2: "static/images/vgt_arima.png",
+  picture3: "static/images/vgt_arima2.png",
+  picture4: "static/images/vgt_fbproph_forecast.png",
 };
 
 var VT = {
-  picture1: "static/images/VT/vt_seasonality.png",
-  picture2: "static/images/VT/vt_arima.png",
-  picture3: "static/images/VT/vt_arima2.png",
-  picture4: "static/images/VT/vt_fbproph_forecast.png",
+  picture1: "static/images/vt_seasonality.png",
+  picture2: "static/images/vt_arima.png",
+  picture3: "static/images/vt_arima2.png",
+  picture4: "static/images/vt_fbproph_forecast.png",
 };
 
 var XLK = {
-  picture1: "static/images/XLK/xlk_seasonality.png",
-  picture2: "static/images/XLK/xlk_arima.png",
-  picture3: "static/images/XLK/xlk_arima2.png",
-  picture4: "static/images/XLK/xlk_fbproph_forecast.png",
+  picture1: "static/images/xlk_seasonality.png",
+  picture2: "static/images/xlk_arima.png",
+  picture3: "static/images/xlk_arima2.png",
+  picture4: "static/images/xlk_fbproph_forecast.png",
 };
 
 
