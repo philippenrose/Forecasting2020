@@ -29,7 +29,7 @@ We decided to simplify our project by eliminating all models that didn't meet th
 https://kapwi.ng/c/UOl6059g
 
 
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="480" height="360" />
+<img src="https://www.kapwing.com/e/5e1f7f897f286a00157fbb56.gif" width="480" height="360" />
 
 
 ```
