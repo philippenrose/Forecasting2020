@@ -50,7 +50,7 @@ def aboutme():
 @app.route('/machinelearn')
 def machinelearn():
     """Return the ETF search page"""
-    return render_template('machine.html')
+    return render_template('machinelearn.html')
 
 @app.route('/frontml')
 def machinelearn2():
