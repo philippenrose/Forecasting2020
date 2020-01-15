@@ -127,16 +127,6 @@ function update(data) {
 update(data3)
     
 
-// function riskcard(data) {
-
-//     Object.entries(data).forEach(function ([key, value]) {
-//         console.log(`${key}: ${value}`);
-//         var list3 = d3.select("#summary3")
-//         list3.html("");
-//         list3.append("li").text(`${key}: ${value}`);
-// }
-//     )}
-
 function riskcard(data) {
   const $summary3 = $('#summary3');
 
