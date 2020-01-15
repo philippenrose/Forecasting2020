@@ -17,8 +17,8 @@ We decided to simplify our project by eliminating all models that didn't meet th
 
 There were only 2 models that satisfied our criteria:
 
-- [FB Prophet](https://facebook.github.io/prophet/)
-- [LSTM}(https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/)
+- [**FB Prophet**](https://facebook.github.io/prophet/)
+- [**LSTM Recurrent Nerual Network**](https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/)
 
 ### Prerequisites:
 
