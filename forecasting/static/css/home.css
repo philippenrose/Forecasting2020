@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    opacity: 0.3;
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(138, 139, 138);
+    color: white;
+  }
+
+
+/* .header {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+} */
+
+/* Hero Bar */
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 90vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    
+    /* Background styles */
+    background-image: linear-gradient(to bottom, rgba(10, 38, 34, .52), rgba(33, 59, 100, .82)), url(https://i.imgur.com/3VPRltC.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+    color: white;
+  }
+
+  .hero h2 {
+      color: white;
+  }
+
+
+.info {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.topinfo {
+    padding-top: 40px;
+}
+
+.bottominfo {
+    padding-bottom: 40px;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+
+#footer {
+    padding: 10px;
+    background: rgb(153, 153, 153);
+    text-align: center;
+    font-size: 10px; 
+}
+
+.tinyinfo {
+    text-align: center;
+    font-size: 5em;
+  }
+
+  #summary3 {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    height: 500px;
+    vertical-align: middle;
+  }
+
+.midpic {
+  filter: invert(1);
+}
+
+.grad {
+  background-image: linear-gradient(to bottom right, #0A2622, #213B64);
+}
+
+p {
+  color: white;
+}
