@@ -21,5 +21,9 @@ We decided to simplify our project by eliminating all models that didn't meet th
 - [**LSTM Recurrent Nerual Network**](https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/)
 - [**ARIMA**](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average/)
 
-### Predicitons:
+### Predictions:
+
+Most of our predictions were within 1-2% from the actual closing price. However, it is not very useful with volatile ETF's and for sudden events like this years market peak.
+
+We recommend that this model only be used to facilitate a trading strategy and not become the trading strategy itself.
 
